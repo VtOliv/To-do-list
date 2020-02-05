@@ -23,7 +23,7 @@ img {
 }
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     position: fixed;
     bottom: 0px;
     width: 100vw;
@@ -31,4 +31,5 @@ footer {
 }
 #digitar {
     border-radius: 20px;
+    margin-right: 10px;
 }
