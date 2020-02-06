@@ -2,25 +2,30 @@ body {
     font-family: 'Caveat', cursive;
     font-size: 15px;
 }
+
 .navbar {
     color: white;
     font-size: 2em;
 }
+
 img {
     width: 50px;
 }
+
 .card-tarefa {
     display: flex;
     justify-content: space-between;
-    border:1px solid;
+    border: 1px solid;
     border-radius: 10px;
     padding: 40px 20px;
     box-shadow: 0px 0px 16px 3px;
 }
+
 .texto-tarefa {
     font-size: 1.5em;
     margin-left: 10px;
 }
+
 footer {
     display: flex;
     justify-content: center;
@@ -29,7 +34,13 @@ footer {
     width: 100vw;
     padding: 10px;
 }
+
 #digitar {
     border-radius: 20px;
     margin-right: 10px;
+}
+
+.check:hover,
+#add:hover {
+    opacity: 0.75;
 }
